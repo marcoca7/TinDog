@@ -1,0 +1,204 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+
+.bigHeading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 10%;
+}
+
+.sectionHeading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Containers */
+
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Sections */
+
+
+.coloredSection {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.whiteSection {
+  background-color: white;
+}
+
+/* Navbar */
+
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-item {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+
+/* Title */
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.titleImage {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+/* Download Button */
+
+
+.downloadButton {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Features */
+
+
+#features {
+  position: relative;
+}
+
+.featureTitle {
+  font-size: 1.5rem;
+}
+
+.featuresCol {
+  padding: 5%;
+}
+
+.icons {
+  color: #ef8172;
+  padding-bottom: 2rem;
+}
+
+.icons:hover {
+  color:#ff4c68
+}
+
+
+/* Testimonials */
+
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonialText {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonialImage{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.pressLogo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+
+#pricing {
+  padding: 100px;
+}
+
+.pricingColumn {
+  padding: 3% 2%;
+}
+
+
+/* Call to Action */
+
+
+#cta {
+  padding: 5% 15% 7%;
+}
+
+
+/* Footer */
+
+
+.footerIcons {
+  padding: 1%;
+}
+
+.copyRight {
+  margin-top: 1rem;
+  color: #8f8f8f;
+}
+
+
+/* Title Media Quiries  */
+
+
+@media(max-width: 992px){
+
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .downloadButton {
+    margin: 0 1.5% 3%;
+  }
+
+  .titleImage {
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+    padding-top: 3%;
+  }
+}
